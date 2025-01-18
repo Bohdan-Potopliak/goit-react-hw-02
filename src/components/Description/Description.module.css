@@ -1,0 +1,14 @@
+.descriptionCnt {
+  text-align: center;
+  margin: 20px;
+}
+
+.descriptionTitle {
+  font-size: 2rem;
+  color: #333;
+}
+
+.descriptionText {
+  font-size: 1rem;
+  color: #555;
+}
