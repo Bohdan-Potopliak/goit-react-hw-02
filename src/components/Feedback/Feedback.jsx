@@ -3,13 +3,12 @@ import s from "./Feedback.module.css";
 
 const Feedback = ({ feedback, positiveFeedback }) => {
   const { good, neutral, bad } = feedback;
-  const total = good + neutral + bad;
 
   const feedbackData = [
     { label: "Good", value: good },
     { label: "Neutral", value: neutral },
     { label: "Bad", value: bad },
-    { label: "Total", value: total },
+    { label: "Total", value: good + neutral + bad },
     { label: "Positive feedback", value: `${positiveFeedback}%` },
   ];
 
